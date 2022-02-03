@@ -8,6 +8,8 @@ func main() {
 	var A = []int{3, 3}
 	var B []int
 	var target = 6
+	fmt.Println(twoSum(A, target))
+	fmt.Println(twoSum(B, target))
 	fmt.Println(twoSum2(A, target))
 	fmt.Println(twoSum2(B, target))
 }
