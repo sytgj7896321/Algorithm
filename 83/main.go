@@ -14,10 +14,10 @@ func main() {
 	test.Next.Val = 1
 	test.Next.Next = new(ListNode)
 	test.Next.Next.Val = 2
-	//test.Next.Next.Next = new(ListNode)
-	//test.Next.Next.Next.Val = 3
-	//test.Next.Next.Next.Next = new(ListNode)
-	//test.Next.Next.Next.Next.Val = 3
+	test.Next.Next.Next = new(ListNode)
+	test.Next.Next.Next.Val = 3
+	test.Next.Next.Next.Next = new(ListNode)
+	test.Next.Next.Next.Next.Val = 3
 	var test2 *ListNode
 	deleteDuplicates(test)
 	deleteDuplicates(test2)
